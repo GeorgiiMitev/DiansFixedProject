@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Викторина</title>
+    <link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="ref1">
+        <nav class="topMenu">
+            <ul>
+                <li><a href="Index.html">Начало</a></li>
+                <li><a href="GreatBulgarianPersons1.html">Личности</a></li>
+                <li><a href="Index.html#AboutUsContainer" id="reference">За нас</a></li>
+                <li><a href="Quiz.html">Викторина</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="topText">Викторина</h1>
+    <br />
+    <div class="QuizRules">
+        <h3>Правила</h3>
+        <ul>
+            <li>Не се връщайте назад в сайта</li>
+            <li>Когато мислите, че знаете отговора, вдигнете ръка</li>
+            <li>Не викайте :)</li>
+            <li>Изчаквайте другите</li>
+            <li>Забавлявайте се</li>
+        </ul>
+    </div>
+    <br />
+    <form name="f1">
+        <fieldset class="Question">
+            <legend><b>Кой Български владетел е наречен „Спасителят на Европа“?</b></legend>
+            <input type="radio" name="answer" value="" id="rbTsarPetar" />
+            <label for="rbTsarPetar">Цар Петър I</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbKhanTervel" />
+            <label for="rbKhanTervel">Хан Тервел</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbTsarSamuil" />
+            <label for="rbTsarSamuil">Цар Самуил</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbKhanKrum" />
+            <label for="rbKhanKrum">Хан Крум</label>
+            <br />
+            <input type="button" name="checkButton" value="Провери" onclick="check();" />
+        </fieldset>
+    </form>
+    <br />
+    <form name="f2">
+        <fieldset class="Question">
+            <legend><b>През коя година става Покръстването на България?</b></legend>
+            <input type="radio" name="answer" value="" id="rb852" />
+            <label for="rb852">852г.</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb863" />
+            <label for="rb863">863г.</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb870" />
+            <label for="rb870">870г.</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb864" />
+            <label for="rb864">864г.</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f3">
+        <fieldset class="Question">
+            <legend><b>Управлението на кой владетел е наречено „Златен век“ на българската култура?</b></legend>
+            <input type="radio" name="answer" value="" id="rbTsarSimeon" />
+            <label for="rbTsarSimeon">Цар Симеон Велики</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbTsarPetar" />
+            <label for="rbTsarPetar">Цар Петър I</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbTsarSamuil" />
+            <label for="rbTsarSamuil">Цар Самуил</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbKhanOmurtag" />
+            <label for="rbKhanOmurtag">Хан Омуртаг</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f4">
+        <fieldset class="Question">
+            <legend><b>По времето на кой владетел Българската Архиепископия е издигната в ранг патриаршия?</b></legend>
+            <input type="radio" name="answer" value="" id="rbTsarRoman" />
+            <label for="rbTsarRoman">Цар Роман</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbTsarPetar" />
+            <label for="rbTsarPetar">Цар Петър I</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbTsarSimeon" />
+            <label for="rbTsarSimeon">Цар Симеон Велики</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbTsarSamuil" />
+            <label for="rbTsarSamuil">Цар Самуил</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f5">
+        <fieldset class="Question">
+            <legend><b>На коя дата честваме успението на Св. Иван Рилски?</b></legend>
+            <input type="radio" name="answer" value="" id="rb18August" />
+            <label for="rb18August">18 август</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb19October" />
+            <label for="rb19October">19 октомври</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb1July" />
+            <label for="rb1July">1 юли</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb1August" />
+            <label for="rb1August">1 август</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f6">
+        <fieldset class="Question">
+            <legend><b>Поради каква причина Цар Самуил умира през 1014г.?</b></legend>
+            <input type="radio" name="answer" value="" id="rbBattle" />
+            <label for="rbBattle">Владетелят пада ранен в битката при село Ключ</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbCapture" />
+            <label for="rbCapture">Умира в тъмницата, пленен от Василий II</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbHeartAttack" />
+            <label for="rbHeartAttack">При вида на ранената си войска, той получава сърдечен удар</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbPoison" />
+            <label for="rbPoison">Отровен е в царския дворец</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f7">
+        <fieldset class="Question">
+            <legend><b>На кой празник избухва Въстанието на Петър и Асен през 1185г.?</b></legend>
+            <input type="radio" name="answer" value="" id="rbDimitrovden" />
+            <label for="rbDimitrovden">Димитровден</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbChristmas" />
+            <label for="rbChristmas">Рождество Христово</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbEaster" />
+            <label for="rbEaster">Възкресение Христово</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbIvanovden" />
+            <label for="rbIvanovden">Ивановден</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f8">
+        <fieldset class="Question">
+            <legend><b>През коя година избухва битката при Клокотница?</b></legend>
+            <input type="radio" name="answer" value="" id="rb1218" />
+            <label for="rb1218">1218г.</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb1241" />
+            <label for="rb1241">1241г.</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb1230" />
+            <label for="rb1230">1230г. </label>
+            <br />
+            <input type="radio" name="answer" value="" id="rb1237" />
+            <label for="rb1237">1237г.</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f9">
+        <fieldset class="Question">
+            <legend><b>Кой български цар управлява в период от 40 години?</b></legend>
+            <input type="radio" name="answer" value="" id="rbIvanAsen" />
+            <label for="rbIvanAsen">Цар Иван Асен II</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbShishman" />
+            <label for="rbShishman">Цар Иван Шишман</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbKaloyan" />
+            <label for="rbKaloyan">Цар Калоян</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbIvanAlexander" />
+            <label for="rbIvanAlexander">Цар Иван Александър</label>
+        </fieldset>
+    </form>
+    <br />
+    <form name="f10">
+        <fieldset class="Question">
+            <legend><b>Кой велик българин ръководи отбраната на Търновград през 1393г. от османците?</b></legend>
+            <input type="radio" name="answer" value="" id="rbShisman" />
+            <label for="rbShisman">Цар Иван Шишман</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbStPatriarchEvtimii" />
+            <label for="rbStPatriarchEvtimii">Св. патриарх Евтимий Търновски</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbIvanSracimir" />
+            <label for="rbIvanSracimir">Цар Иван Срацимир</label>
+            <br />
+            <input type="radio" name="answer" value="" id="rbKonstantinAsen" />
+            <label for="rbKonstantinAsen">Константин II Асен</label>
+        </fieldset>
+    </form>
+    <br />
+    <a id="BackToTop" href="Quiz.html#ref1"> Към Началото &uarr; </a>
+    <br />
+    <footer>
+        <ul>
+            <li><a href="Index.html#AboutUsContainer">За нас</a></li>
+            <li><a href="ContactUs.html">Свържи се с нас</a></li>
+            <li><a href="GreatBulgarianPersons1.html">Личности</a></li>
+        </ul>
+    </footer>
+
+
+
+</body>
+</html>

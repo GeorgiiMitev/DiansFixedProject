@@ -1,0 +1,324 @@
+﻿body
+{
+    margin: 0;
+}
+body {
+    background-color: #E8C16E;
+    margin-top: 0
+}
+
+.topMenu ul {
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    background-color: #646464;
+    text-align: center;
+}
+
+.topMenu li {
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+}
+
+    .topMenu li:hover {
+        background-color: #DCAA79;
+        padding: 5px 0;
+    }
+
+.topMenu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#imageContainer {
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+    #imageContainer img {
+        margin: -150px,-250px;
+    }
+
+#imageContainer {
+    overflow: hidden;
+    justify-content: center;
+    width: 100%;
+}
+
+    #imageContainer .imageText {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        text-align: center;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-family: 'Comic Sans MS';
+        transform: translate(-50%, -50%);
+    }
+
+    #imageContainer hr {
+        border-top: 2px solid black;
+    }
+
+#AboutUsHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#AboutUsContainer img {
+    margin: 0px 110px;
+    width: 30%;
+    height: 20%;
+    float: left;
+}
+
+#AboutUsContainer p {
+    width: 1250px;
+    text-justify: auto;
+    font-size: 20px;
+}
+
+#AboutUsContainer a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.ContactUsForm fieldset {
+    width: 30%;
+}
+
+.ContactUsForm input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.ContactUsForm input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 370px;
+}
+
+.ContactUsForm [type=submit]:hover {
+    background-color: royalblue;
+}
+
+.ContactUsForm fieldset {
+    font-family: cursive;
+    font-weight: 400;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(4px);
+}
+
+.ContactUsForm legend {
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 500;
+}
+#FirstImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    #FirstImages img {
+        margin-top: 50px;
+        width: 140px;
+        height: 210px;
+        border: 1px solid black;
+        box-shadow: 0 0 10px 2px #333333;
+        border-radius: 3%;
+    }
+
+#SecondImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    #SecondImages img {
+        margin-top: 50px;
+        width: 140px;
+        height: 210px;
+        box-shadow: 0 0 10px 2px #333333;
+        border: 1px solid black;
+        border-radius: 3%;
+    }
+
+#ListHeader {
+    text-align: center;
+}
+
+.PersonsList {
+    background-color: beige;
+    padding: 5px;
+    width: 260px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 2px #333333;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .PersonsList ol {
+        margin: 12px;
+    }
+
+.PersonsTable td {
+    text-align: center;
+}
+
+.PersonsTable th {
+    text-align: center;
+    background-color: beige;
+}
+
+.PersonsTable table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PersonsTable table, th, td {
+    border: 2px solid;
+    padding: 5px;
+    border-spacing: 10px;
+}
+
+.PersonsTable th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: chocolate;
+}
+
+.PersonsTable tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.PersonsTable tr:nth-child(odd) {
+    background-color: cornsilk;
+}
+
+.PersonsTable tr:hover {
+    background-color: #fff;
+}
+
+#BackToTop {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+.PersonImage {
+    margin-left: 60px;  
+    border-radius: 5%;
+    margin-top: 20px;   
+    border: 1px solid black;
+    box-shadow: 0 0 10px 2px #333333;
+}
+.topText {
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    transform: translate(-50%, -50%);
+}
+.PersonText {
+    float: right;
+    margin-right: 60px;
+    font-size: 21px;
+    background-color: beige;
+    padding: 5px;
+    width: 700px;
+    border: 1px solid #f7f381;
+    box-shadow: 0 0 10px 2px #333333;
+    margin-left: auto;
+    border-radius: 5%;
+}
+.QuizRules {
+    background-color: beige;
+    margin-top: 30px;
+    padding: 5px;
+    width: 260px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 2px #333333;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .QuizRules ul {
+        list-style-image: linear-gradient(to left bottom, red, blue);
+    }
+
+    .QuizRules h3 {
+        text-align: center
+    }
+
+.Question {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+    .Question legend {
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+    }
+
+    .Question label {
+        font-size: 17px;
+        font-family: cursive;
+        font-weight: 400;
+    }
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3c3d3c;
+    text-decoration: none;
+    text-align: center;
+}
+
+    footer ul {
+        list-style-type: none;
+    }
+
+
+        footer ul li a {
+            color: lightgray;
+            text-decoration: none;
+        }
